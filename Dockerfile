@@ -6,4 +6,6 @@ COPY test-and-report.sh /
 
 WORKDIR /
 
+RUN chmod +x test-and-report.sh
+
 ENTRYPOINT ["test-and-report.sh"]
