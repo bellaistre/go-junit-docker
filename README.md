@@ -14,3 +14,4 @@ $ docker run --rm -v $PWD:/go/src/app jfrench/go-junit-report
 ## Output
 
 The jUnit XML report will be written to a file called `report.xml` in your app's folder.
+test
